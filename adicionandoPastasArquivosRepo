@@ -1,0 +1,9 @@
+Se criar diretorios novos, como 'ex2' em MachineLearning, precisará fazer o seguinte para subi-lo corretamente:
+
+Crie o diretório e entre nele
+
+git add .	# este comando abrirá uma janela para escrever o commit; escrever e sair com ^X
+git commit
+git push
+
+================

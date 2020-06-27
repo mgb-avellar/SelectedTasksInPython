@@ -94,7 +94,7 @@ m, bins, patches = plt.hist(Sum_vector, HistMax - HistMin + 1, normed=0, facecol
 plt.xlabel('Numbers')
 plt.ylabel('Number counts')
 plt.title(r'$\mathrm{Histogram\ of\ the\ sum\ of\ the\ numbers\ in\ %d\ dice }\ $' % N)
-plt.axis([HistMin-1, HistMax + 1, 0, M/7.5])
+plt.axis([HistMin-1, HistMax + 1, 0, 10*M/7.5])
 plt.grid(True)
 
 #plt.show()
